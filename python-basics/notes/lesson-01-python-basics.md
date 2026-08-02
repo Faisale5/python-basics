@@ -1,0 +1,109 @@
+Lesson 1 - Python Basics
+Python is a programming language used to create:
+- Websites
+- Games
+- Apps
+- Cybersecurity tools
+- AI
+- Automation scripts
+
+Print() - Used to display information
+  Example: 
+   in python: print("Hello World")
+   Output: Hello World
+
+Variables - Store information.
+ Example:
+ in python: name = "Faisal"
+            age = 22
+    think of a variable as a labelled box that stores data
+
+User Input
+ Use input() to ask the user a question
+ Example:
+ name = input(What is your name? ")
+
+Data Types
+String (text)
+ name = "Faisal"
+
+Integer (whole number)
+ age = 22
+
+Convert input into an integer:
+ age = int(input("Age: "))
+
+f-Strings
+ Used to insert variables into text.
+ Instead of:
+  print("hello", name)
+ Use:
+  print(f"Hello {name}!")
+
+Comparison Operators
+ Used to compare values
+  == Equal to
+  != Not equal to
+  > Greater than
+  < Less than
+  >= Greater than or equal to
+  <= Less than or equal to
+   Example:
+   Python: age >= 18
+   Returns:
+           True
+    or
+           False
+
+if Statement
+ Runs code only if the condition is True.
+ python:
+ if age >= 18:
+        print("Adult")
+
+else Statement
+ Runs when the condition is False.
+ Example:
+  Python:
+  if age >= 18:
+     print("Adult")
+  else:
+     print("Under 18")
+
+elif Statement
+ Checks another condition
+ Example:
+  Python:
+  if age < 13:
+     print("child")
+  elif age < 18:
+      print("Teenager")
+  else:
+      print("Adult")
+
+and Operator
+ Both conditions must be True.
+ Example:
+  Python:
+  if username == "faisale5" and password == "python123":
+       print("Access Granted")
+else:
+       print("Access Denied")
+
+Indentation
+ Python uses indentation (4 spaces) to know what code belongs together.
+  Correct:
+  if age >= 18:
+       print("Adult")
+  Wrong:
+  if age >= 18:
+  print("Adult")
+
+What I Built:
+- Hello World
+- Personal Information Program
+- if Statement Program
+- Login Program
+- elif Statement Program
+
+
