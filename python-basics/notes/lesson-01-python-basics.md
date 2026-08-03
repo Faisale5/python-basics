@@ -54,6 +54,14 @@ Comparison Operators
            True
     or
            False
+used to:
+- check if a user can log in.
+- check if someone is old enough
+- check exam scores
+- validate passwords
+- build games
+- build websites
+- create cybersecurity tools
 
 if Statement
  Runs code only if the condition is True.
@@ -105,5 +113,5 @@ What I Built:
 - if Statement Program
 - Login Program
 - elif Statement Program
-
+- Comparison Operators Program
 
