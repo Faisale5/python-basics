@@ -110,6 +110,13 @@ Indentation
 Logical Operators
  Logical Operators combine conditions.
 
+Logical operators are used everywhere:
+- Login systems
+- Online stores
+- Games
+- Websites
+- Cybersecurity tools
+
  ### and Operator
   Both conditions must be true.
   Example:
@@ -121,7 +128,13 @@ Logical Operators
   if age < 18 or age > 65:
 
   not Operator
-  
+  Reverses a True or False value.
+  Example:
+  logged_in = False
+  print(not logged_in)
+  output = true
+
+
 
 What I Built:
 - Hello World
