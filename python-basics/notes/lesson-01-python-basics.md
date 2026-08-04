@@ -107,6 +107,22 @@ Indentation
   if age >= 18:
   print("Adult")
 
+Logical Operators
+ Logical Operators combine conditions.
+
+ ### and Operator
+  Both conditions must be true.
+  Example:
+  if username == "admin" and password == "python123":
+
+  or Operator
+  At least one condition must be True.
+  Example:
+  if age < 18 or age > 65:
+
+  not Operator
+  
+
 What I Built:
 - Hello World
 - Personal Information Program
