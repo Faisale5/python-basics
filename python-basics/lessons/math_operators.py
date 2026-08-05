@@ -1,0 +1,20 @@
+## Arithmetic Operators
+a = 10
+b = 3
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(a ** b)
+
+c = 20
+d = 5
+print(c + d)
+print(c - d)
+print(c * d)
+print(c / d)
+print(c // d)
+print(c % d)
+print(c ** d)
