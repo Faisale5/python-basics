@@ -171,7 +171,22 @@ Remember:
   name[1] # Second letter
   name[-1] # Last letter
 
+## Lists
+ A list stores multiplevalues in one variable.
+ Example:
+ fruits = ["Apple", "Banana", "Orange"]
 
+ Access items:
+ fruits[0] # Apple
+ fruits[1] # Banana
+ fruits[-1] # Orange
+
+ Useful methods:
+ append() -> Adds an item to the end.
+ remove() -> Removes an item by value.
+ len() -> Returns the number of items.
+
+ Lists are mutable, meaning they can be changed after they are created.
 
   
 What I Built:
