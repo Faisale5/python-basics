@@ -188,7 +188,126 @@ Remember:
 
  Lists are mutable, meaning they can be changed after they are created.
 
-  
+ ## Functions
+  A function is a reusable block of code.
+  Create a function:
+  def greet():
+    print("Hello!")
+
+ Run a function:
+ greet()
+
+ Remember:
+ - def creates a function.
+ - The function does nothing until you call it.
+ - Functions reduce repeated code.
+
+## Functions with Parameters
+A parameter lets you pass information into a function.
+Example:
+
+def greet(name):
+    print(f"Hello {name}!")
+ Call the function:
+ greet("Faisal")
+ greet("Omar")
+ greet("Ali")
+
+ Output:
+ Hello Faisal!
+ Hello Omar!
+ Hello Ali!
+
+ Remember
+ - Parameters are variables inside the function.
+ - Arguments are the values you pass when calling the function.
+
+ Multiple Parameters
+  Functions can have more than one parameter.
+  Example:
+  def person(name, age):
+   print(f"{name} is {age} years old.")
+   Calling it:
+   person("Faisal", 22)
+   Output:
+   Faisal is 22 years old.
+ 
+  Return
+   Return sends a value back from the function.
+   Example:
+   def add(a, b):
+    return a + b
+   results = add(15, 10)
+   print(results)
+   Output:
+   25
+
+ print() vs return
+ using print():
+ def add(a, b):
+ print(a + b)
+ displays the answer but doesn't save it.
+ using return:
+ def add(a, b):
+ return a + b
+ Returns the answer so it can be stored in a variable.
+ Example:
+ result = add(5, 5)
+ Now result contains:
+ 10
+ 
+ Variable Scope
+ Global Variable
+ Created outside a function.
+ Example:
+ def greet():
+   print(name)
+ greet()
+  Output: Faisal
+ Global variables can usually be accessed from inside functions.
+
+ Local Variable
+ Created inside a function.
+ Example:
+ def greet():
+  name = "Faisal"
+  print(name)
+ greet()
+ print(name)
+ Output:
+ Faisal
+ NameError: name 'name' is not defined
+ The variable only exists while the function is running.
+ 
+ Local vs Global
+ name = "Faisal"
+ def greet():
+ name = "Omar"
+ print(name)
+ greet()
+ print(name)
+ Output:
+ Omar
+ Faisal
+ The local variable does not change the global variable.
+
+ Remember:
+  - def creates a function.
+  - A function does nothing until it is called.
+  - Parameters allow functions to accept information.
+  - Arguments are the values passed into parameters.
+  - return sends a value back.
+  - Local variables only exist inside their function.
+  - Global variables are created outside functions.
+
+  Study tip:
+  - def -> Create the function.
+  - () -> Call the function.
+  - Parameters -> Receive information
+  - return -> Give back information.
+
+
+
 What I Built:
 - Hello World
 - Personal Information Program
