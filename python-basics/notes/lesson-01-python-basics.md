@@ -149,7 +149,31 @@ Remember:
  Update the variables inside the loop.
  If you don't update it, you can create an infinite loop.
 
+## for Loops
+ for loops repeat code a specific number of times.
+ Syntax:
+ for variable in range(start, stop):
+      print(variable)
+ Remember:
+ range(1, 6) prints 1 to 5.
+ The stop number is not included.
+ Use a negative step (-1) to count backwards.
+ 
+## Strings
+ A string is text.
+   name = "Faisal"
+ Useful functions:
+  len(name)  # Length
+  name.upper() # Uppercase
+  name.lower() # Lowercase
+ Access characters:
+  name[0] # First letter
+  name[1] # Second letter
+  name[-1] # Last letter
 
+
+
+  
 What I Built:
 - Hello World
 - Personal Information Program
