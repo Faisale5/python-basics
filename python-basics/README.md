@@ -6,3 +6,4 @@ This repository contains my Python projects as I prepare for my Bachelor of Info
 - User Input
 - Variables
 - Age Calculator
+- Guessing Game
