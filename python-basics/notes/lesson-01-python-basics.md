@@ -134,6 +134,20 @@ Logical operators are used everywhere:
   print(not logged_in)
   output = true
 
+## While Loops
+A while loop repeats code while a condition is true.
+Syntax:
+python
+number = 1 
+
+while number <= 10:
+   print(number)
+   number = number + 1
+the loop stops when the condition becomes false.
+Remember:
+ while reppeats code.
+ Update the variables inside the loop.
+ If you don't update it, you can create an infinite loop.
 
 
 What I Built:
