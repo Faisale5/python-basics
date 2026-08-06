@@ -306,8 +306,39 @@ def greet(name):
   - Parameters -> Receive information
   - return -> Give back information.
 
+## Dictionaries
+ A dictionary stores data as key: value pairs.
+ Example:
+ person = {
+   "name": "Faisal",
+   "age": 22
+ }
+ Keys must be unique.
 
+ Access a value
+ print(person["name"])
+ Output: Faisal
 
+ Update a value
+ person["age"] = 23
+ 
+ Add a new key
+ person["country"] = "Australia"
+
+ Delete a key
+ del person["country"]
+ 
+ Print the whole dictionary
+ print(person)
+ Output:
+ {'name': 'Faisal', 'age': 23}
+
+ Dictionary Rules
+ - Uses {}
+ - Stores key : values pairs
+ - Access values using keys
+ - Keys must be unique
+ - Values can be strings, integers, booleans, floats, lists, or even other dictionaries
 What I Built:
 - Hello World
 - Personal Information Program
