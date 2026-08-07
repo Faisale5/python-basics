@@ -339,6 +339,59 @@ def greet(name):
  - Access values using keys
  - Keys must be unique
  - Values can be strings, integers, booleans, floats, lists, or even other dictionaries
+
+ ## Tuples
+ A tuple stores multiple values like a list, but cannot be changed.
+ months = ("January", "February", "March")
+
+ Access items
+ months[0]
+ months[1]
+ months[-1]
+
+ Tuple Rules:
+ - Uses ()
+ - Ordered
+ - Indexed
+ - Immutable (cannot chang)
+ - Faster than lists
+ - Good for data that should never change
+
+## Sets
+ A set stores unique values.
+ fruits = {"apple", "banana", "orange"}
+
+ Add an item:
+ fruits.add("mango")
+ 
+ Remove an item:
+ fruits.remove("banana")
+
+ Rules:
+ - Uses {}
+ - Unordered
+ - No indexes
+ - No duplicates
+ - Changeable( add/remove items)
+
+## Error Handling
+ try lets Python attempt to run some code.
+ except tells python what to do if an error occurs.
+
+ Example:
+ try:
+    number = int(input("Enter a number: "))
+    print(number)
+ except ValueError:
+    print("That is not a valid number!")
+
+ Why use it?
+ - Prevents your program from crashing.
+ - Gives the user a helpful message.
+ - Makes programs more reliable.
+
+
+
 What I Built:
 - Hello World
 - Personal Information Program
