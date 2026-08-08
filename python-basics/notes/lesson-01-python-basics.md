@@ -390,6 +390,85 @@ def greet(name):
  - Gives the user a helpful message.
  - Makes programs more reliable.
 
+## Floats
+ A float is a number with a decimal point.
+ price = 19.99
+ weight = 82.5
+ number = 5.0
+
+ Integer vs Float
+ 22 -> int
+ 22.5 -> float
+ 50 -> int
+ 50.0 -> float
+ Even if the deciaml is .0, it is still a float
+
+ Checking a data type
+ use type():
+ age = 22
+ price = 19.99
+
+ print(type(age))
+ print(type(price))
+
+ Output:
+ <class 'int'> 
+ <class 'float'>
+
+ Converting to a Float
+ use float():
+ price = float(input(Enter price: "))
+ input() normally gives us a string.
+ if the user enters: 12.50
+ float() converts it to the number: 12.5
+
+ Maths with Floats
+ Floats can be used with arithmetic operators:
+ price = 20.50
+ quantity = 3
+ total = price * quantity
+ print(total)
+ Output: 61.5
+
+ Float + Integer
+ When you do maths using a float and an integer, the result is normally a float.
+ a = 5.0
+ b = 3
+ result = a + b
+ print(result)
+ Output = 8.0
+ Remember:
+ - float + int -> float
+ - float * int -> float
+
+ Converting Float to Integer
+ int() removes the decimal part:
+ print(int(5.9))
+ Output: 5
+ It does not round.
+ int(9.8) -> 9
+ int(7.2) -> 7
+ int(4.99) -> 4
+
+ Error Handling with Floats
+ if someone enters text when python expects a float:
+ float("hello")
+ Python gives a ValueError.
+ We can handle it using something you've already learned:
+
+ try:
+ price = float(input("Enter price: "))
+         print(price)
+ except ValueError:
+   print("Please enter a valid price. ")
+
+ Remember: 
+ - int = whole number
+ - float = decimal number
+ - float () converts a value to a float
+ - int() converts to an integer and removes the decimal part
+ - Maths involving a float will generally produce a float
+ - input() gives you a string unless you convert it.
 
 
 What I Built:
